@@ -25,8 +25,4 @@ Os dois perfis compartilham esses defeitos, então a comparação entre eles con
 - **Impacto nas métricas:** o RESTest reporta como F206 ("dados inválidos aceitos"). Como não correspondem
   ao gabarito, contam como falso positivo do RESTest (3 por perfil, nas três sementes).
 
-## Como descrever no artigo
 
-Os dois defeitos são limitações do alvo, não das ferramentas. Eles inflam os falsos positivos do RESTest
-e impedem a atribuição de SQLI-02 pelo oráculo de 500. As conclusões sobre BOLA, enumeração, CORS,
-rate limit e stack trace não dependem deles.
